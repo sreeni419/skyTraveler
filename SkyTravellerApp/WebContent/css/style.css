@@ -1,0 +1,213 @@
+body{
+	
+	
+	background-repeat:no-repeat;
+	min-height:150%;
+	background-position:fixed;
+}
+
+.wrapper{
+	padding:20px;
+	min-height:768px;
+	background-image: url('bg.jpg');
+}
+
+#loading {
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: block;
+	opacity: 0.7;
+	background-color: #fff;
+	z-index: 99;
+	text-align: center;
+}
+
+#loading-image {
+	margin: 150 0 0 200px;
+	position: absolute;
+	top: 100px;
+	left: 240px;
+	z-index: 100;
+}
+
+.search-keyword {
+	text-align: center;
+	padding: 10px;
+	box-shadow: 0px 3px 8px #888888;
+	margin: 20 0 0 30px;
+	max-width: 95%;
+	background:white;
+}
+
+#button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	margin: 10px 0 0;
+	max-width: 100px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#download {
+	display: none;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	margin: 10px 0 0;
+	display: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	background-color: #4CAF50;
+}
+
+.second-keyword {
+	text-align: center;
+	padding: 10px;
+	box-shadow: 0px 3px 8px #888888;
+	margin: 40 0 10 20px;
+	text-align: center;
+}
+
+p {
+	font-weight: bold;
+}
+
+.news-title {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 27px;
+}
+
+.news-desc {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.news-content {
+	line-height: 18px;
+}
+
+.author {
+	font-weight: bold;
+}
+
+#mainDiv {
+	display: none;
+}
+
+.downloadDiv {
+	display: none;
+}
+
+#geoLocation {
+	display: inline-block;
+	text_align: left;
+	width: 100px;
+}
+
+#selectCountry {
+	display: inline-block;
+	width: 100px;
+}
+
+#numberResult {
+	display: inline-block;
+	width: 100px;
+}
+
+#date-picker-from {
+	display: inline-block;
+	width: 75%;
+}
+
+#date-picker-to {
+	display: inline-block;
+	width: 85%;
+}
+
+#domains {
+	display: inline-block;
+	width: 70%;
+}
+
+#excludeDomains {
+	display: inline-block;
+	width: 70%;
+}
+
+#sortBy {
+	display: inline-block;
+	width: 200px;
+}
+
+.menu-bar {
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 40px;
+}
+
+
+
+table{
+	margin-top:10px;
+}
+table thead tr th{
+	background:blue;
+	color:white;
+}
+
+table tbody tr td{
+	background:lightgray;
+	color:black;
+}
+
+.traveling-warning-data{
+	text-align:center;
+	margin: 0 auto;
+	padding-top:20px;
+	background:white;
+	box-shadow: 0px 3px 8px #888888;
+}
+.travel_warning{
+	padding:20px;
+}
+.travel_warning p{
+	padding-top:10px;
+}
+.travel_warning p .title{
+	font-size:17px;
+}
+.travel_warning p .content{
+	font-size:17px;
+	color:blue;
+}
+
+
+.trip-country-form{
+	text-align:center;
+	margin: 0 auto;
+}
+.trip-country-form .form-control{
+	width:30%;
+	margin: 0 auto;
+	text-align:center;
+}
+h2{
+	text-align:center;
+	padding:10px;
+	margin-top:-20px;
+	font-size:40px;
+	font-weight:bold;
+}	
+.modal-dialog {	
+    width: 61%;	
+}

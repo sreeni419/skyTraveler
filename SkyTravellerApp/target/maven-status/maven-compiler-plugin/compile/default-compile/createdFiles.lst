@@ -1,0 +1,12 @@
+com\skytraveler\config\SkyTravelerWebAppInitializer.class
+com\skytraveler\controller\HomeController.class
+com\skytraveler\apiConsuming\AuthenticationServiceImplementaionServiceLocator.class
+com\skytraveler\apiConsuming\AuthenticationServiceAPIProxy.class
+com\skytraveler\apiConsuming\User.class
+com\skytraveler\controller\AirportFinderController.class
+com\skytraveler\controller\AuthenticateController.class
+com\skytraveler\apiConsuming\AuthenticationServiceAPI.class
+com\skytraveler\apiConsuming\AuthenticationServiceImplementaionService.class
+com\skytraveler\apiConsuming\AuthenticationServiceImplementaionPortBindingStub.class
+com\skytraveler\config\WebConfig.class
+com\skytraveler\controller\FlightController.class
